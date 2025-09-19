@@ -25,14 +25,16 @@ This is a web-based interactive keyboard sound maker. Users can press specific k
 ```
 
 ├── index.html       # Main HTML file
-├── demo.css         # CSS styles
-├── demo.js          # JavaScript functionality
-├── assets/          # Audio files for each key
+├── script.js        # JavaScript functionality
+├── assets/          # Audio files for each key and CSS file
+│   ├── demo.css     # CSS styles
 │   ├── clap.wav
 │   ├── hihat.wav
 │   ├── kick.wav
 │   └── ...
+├── Assignment_README.md  #Assignment instruction and requirements
 └── README.md        # This file
+
 
 ```
 
