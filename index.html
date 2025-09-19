@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML</title>
+    <link rel="stylesheet" href="assets/style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="your-integrity-hash" crossorigin="anonymous" />
+</head>
+<body id="body">
+    <header>
+        <i id="hamicon" class="fas fa-bars"></i>
+        <div id="sidebar" class="hide">
+        <nav id="nav-container">
+            <ul id="items">
+                <li>Home</li>
+                <li>Setting</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        </div>
+        <div id="para">
+    <p id="greet">Keyboard Beats: Play & Jam</p>
+   </div>
+    </header>
+   <div id="buttton">
+    <i id="clickButton" class="fa-duotone fa-solid fa-sun" style="color: white;"></i>
+   </div>
+   <div id="letter-row">
+  <div id="letter-buttons">
+  <button class="letter-btn" data-key="65">
+    A
+    <div class="btn-label">CLAP</div>
+  </button>
+  <button class="letter-btn" data-key="83">
+    S
+    <div class="btn-label">HIHAT</div>
+  </button>
+  <button class="letter-btn" data-key="68">
+    D
+    <div class="btn-label">KICK</div>
+  </button>
+  <button class="letter-btn" data-key="70">
+    F
+    <div class="btn-label">OPENHAT</div>
+  </button>
+  <button class="letter-btn" data-key="71">
+    G
+    <div class="btn-label">BOOM</div>
+  </button>
+  <button class="letter-btn" data-key="72">
+    H
+    <div class="btn-label">RIDE</div>
+  </button>
+  <button class="letter-btn" data-key="74">
+    J
+    <div class="btn-label">SNARE</div>
+  </button>
+  <button class="letter-btn" data-key="75">
+    K
+    <div class="btn-label">TOM</div>
+  </button>
+  <button class="letter-btn" data-key="76">
+    L
+    <div class="btn-label">TINK</div>
+  </button>
+</div>
+</div>
+   
+   <div id="contact-container" class="contact-container">
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate, ask a question, or just say hello — feel free to drop a message!</p>
+ 
+    <form id="contact-form" class="contact-form">
+      <input id="name" type="text" placeholder="Your Name" required />
+      <input id="email" type="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button id="btn" type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+  
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
