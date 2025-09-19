@@ -44,5 +44,3 @@ This is a web-based interactive keyboard sound maker. Users can press specific k
 
 ## Author
 Robel Biruk
-
-```
