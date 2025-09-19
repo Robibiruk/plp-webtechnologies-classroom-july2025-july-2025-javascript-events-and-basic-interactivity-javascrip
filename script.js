@@ -163,14 +163,6 @@ namee.addEventListener('input', function(event){
     namee.value = currentvalue;
 })
 
-// namee.addEventListener('focus', function(){
-//     console.log('Elemet Focused')
-// })
-
-// namee.addEventListener('blur', function(){
-//     console.log('Element blured')
-// })
-
 // Form validation feedback
 
 function getDefaultInputBg() {
